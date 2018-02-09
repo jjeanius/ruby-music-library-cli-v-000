@@ -18,14 +18,19 @@ class MusicLibraryController
       case input
       when inputs "list songs"
         songs
+        input = gets.strip
       when  "list artists"
         artists
+        input = gets.strip
       when  "list genres"
         genres
+        input =  gets.strip
       when "list artist"
         list_artist
+        input =  gets.strip
       when "list genre"
         list_genre
+        input =  gets.strip
       when "play song"
         play_song
       end
