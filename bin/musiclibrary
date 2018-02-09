@@ -16,17 +16,17 @@ class MusicLibraryController
       puts "Please make your selection."
       input = gets.strip
       case input
-      when "list songs"
+      when inputs ==="list songs"
         songs
-      when "list artists"
+      when === "list artists"
         artists
-      when "list genres"
+      when === "list genres"
         genres
-      when "list artist"
+      when === "list artist"
         list_artist
-      when "list genre"
+      when === "list genre"
         list_genre
-      when "play song"
+      when === "play song"
         play_song
       end
     end
