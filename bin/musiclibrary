@@ -9,7 +9,7 @@ class MusicLibraryController
     importer.importer
     end
 
-    def call
+    def call(input)
       input = " "
       while input ! = "exit"
       puts "Welcome to the Music Library!"
