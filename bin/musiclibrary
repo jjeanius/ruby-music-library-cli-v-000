@@ -24,10 +24,10 @@ class MusicLibraryController
         end
 
         def list artists
-          artists
+          list_artists
           puts "Please select an Artist"
           inputs = gets.strip
-          play_
+          play_song
         end
 
       def list genres
