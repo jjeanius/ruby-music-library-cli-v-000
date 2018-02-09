@@ -10,10 +10,10 @@ class MusicLibraryController
     end
 
     def call
-      binding.pry
       input = " "
       while input ! = "exit"
       puts "Welcome to the Music Library!"
+      binding.pry
       puts "What would you like to do?"
       input = gets.strip
       case input
